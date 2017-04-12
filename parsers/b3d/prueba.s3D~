@@ -1,0 +1,6 @@
+element : Nodo {
+	num valor : 15 * 4;
+	str cadena : "Hola";
+	Nodo izq : NULL;
+	Nodo der : NULL;
+}

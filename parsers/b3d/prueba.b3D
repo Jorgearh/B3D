@@ -1,0 +1,112 @@
+	¿DECLARACION DE VARIABLES GLOBALES?
+
+Nodo raiz; 			%esto es un comentario
+num v1, v2, v3 : 0; %v1, v2, v3 tendrian valor de 0
+str cadena_prueba : "Carmen, se me perdio la cadenita";
+bool temp;			%esta variable tendria un valor nulo o indefinido
+
+
+	¿DECLARACION DE ARREGLOS GLOBALES?
+
+array : vector [5 .. 20] of str;
+array : estados [5][3] of bool;
+array : casillas [1 .. 5][4][1 .. 3] of num;
+
+
+	¿DECLARACION DE ESTRUCTURAS GLOBALES?
+
+Nodo raiz : create(Nodo);
+
+
+	¿DECLARACION DE FUNCIONES?
+
+
+void : metodo1(){
+	% instrucciones del metodo 1
+}
+
+num : buscarElemento(num val, num datos [5 .. 20]){
+	% instrucciones de buscarElemento
+}
+
+Nodo : getNodo(num valor, str * cadena){
+	% instrucciones de getNodo
+}
+
+num [][] : getTablero(num x, bool b, Objeto b){
+	¿ Notese el formato que tiene el tipo de una
+	  funcion cuando devuelve un arreglo, admeas Objeto es el 
+	  nombre del tipo de la estructura ?
+}
+
+	¿DECLARACION DE METODO PRINCIPAL?
+Principal () {
+
+}
+
+
+¿********************************************************************************************************************************
+												SENTENCIAS LOCALES	
+********************************************************************************************************************************?
+Principal(){
+
+	% Declaración de variables
+	num var1;
+	array : vector [5][20] of str;
+	Nodo nodo;
+	Persona persona;
+	
+	% Asignaciones validas
+	vector = getMatriz();
+	
+	var1 = getValor() + 2.059;
+	
+	vector[2][5] = 'var1 vale: ' + var1;
+	
+	nodo = create(Nodo);
+	
+	nodo.alguien = create(Persona);
+	
+	persona = nodo.alguien;
+	
+}
+
+
+void : pruebaIf_IfElse(){
+	if (a > 8) then {
+		show (a);
+	}
+	
+	if (a > 0)then {
+	} else {
+	}	
+}
+
+void : pruebaSwitch(){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+Principal(){
+
+	if(a > 0) then {
+		show('Sentencias verdaderas...');
+	}
+	
+	if (a > 0)then {
+	} else {
+	}
+}

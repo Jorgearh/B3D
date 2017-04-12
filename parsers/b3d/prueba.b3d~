@@ -1,0 +1,14 @@
+
+¿DECLARACION DE VARIABLES GLOBALES?
+
+Nodo raiz; 			%esto es un comentario
+num v1, v2, v3 : 0; %v1, v2, v3 tendrian valor de 0
+str cadena_prueba : "Carmen, se me perdio la cadenita";
+bool temp;			%esta variable tendria un valor nulo o indefinido
+
+
+¿DECLARACION DE ARREGLOS GLOBALES?
+
+array : vector [5 .. 20] of str;
+array : estados [5][3] of bool;
+array : casillas [1 .. 5][4][1 .. 3] of num;

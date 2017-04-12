@@ -1,0 +1,16 @@
+element : Nodo {
+	num valor : 15 * 4;
+	str cadena : "Hola";
+	Nodo izq : NULL;
+	Nodo der : NULL;
+}
+
+element : Arbol { % Definicion del elemento Arbol
+	element :  Nodo{
+		num valor : 0;
+		Nodo izq : NULL;
+		Nodo der : NULL;
+	}
+	Nodo izq = NULL;
+	str titulo : "Sin titulo";	
+}

@@ -1,0 +1,57 @@
+/*
+	DECLARACIONES
+*/
+
+//Estructuras de entorno de ejecucion
+
+int stack[1000];
+int heap[1000];
+int pool[1000];
+
+//Apuntadores
+
+int s = 0;
+int h = 0;
+int p = 0;
+
+//Variables temporales
+
+
+
+/*
+	METODOS
+*/
+
+void metodo1(){
+	L1:
+	L2:
+	L3:
+	
+	t1 = 1990.0620;
+	t2 = 10;
+	t3 = t1 + t2;
+	t4 = 5 * t2;
+	
+}
+
+void metodo2(){
+	L1:
+	t1 = 2;
+	t2 = 5.98;
+	goto L2;	//Este es un salto incondicional;
+	t3 = s + 0;
+	t4 = 10;
+	t5 = 3.14 * t4;
+	L2:
+	
+	if(t4 > 8) then goto L5;
+	goto L6;
+	
+	metodo_2();
+	
+	$$_getNum();
+	
+	printf(%c, t4);
+	
+	stack[t13] = t12;
+}

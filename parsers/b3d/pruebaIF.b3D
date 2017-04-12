@@ -1,0 +1,20 @@
+Principal(){
+
+	if(a > 0) then {
+		show('Sentencias verdaderas...');
+	}
+	
+	if (a > 0)then {
+	} else {
+	}
+}
+
+void : pruebaIf_IfElse(){
+	if (a > 8) then {
+		show ('Sentencias verdaderas...');
+	}
+	
+	if (a > 0)then {
+	} else {
+	}	
+}
