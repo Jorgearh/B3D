@@ -60,6 +60,8 @@
 "$$_getArrLength()"					return 'getArrLength'
 "$$_getStrLength()"					return 'getStrLength'
 
+"$$_SGC"							return 'SGC'
+
 "printf"							return 'printf'
 "c"		    						return 'paramC'
 "d"	     							return 'paramD'
@@ -188,6 +190,12 @@ CORE	:	 getBool
 			|getRandom
 			|getArrLength
 			|getStrLength
+			
+			|SGB
+			;
+
+
+SGC		:	'SGC' '(' VAL ',' VAL ')'
 			;
 			
 PRINTF	:	 printf '(' PARAM ',' VAL ')'
